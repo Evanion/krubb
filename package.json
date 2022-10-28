@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "docker:build": "COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml build --parallel",
     "docker:up": "docker-compose -f docker-compose.yml up -d",
-    "docker:down": "docker-compose -f docker-compose.yml down"
+    "docker:down": "docker-compose -f docker-compose.yml down",
+    "clean:hard": "git clean -xdf"
   },
   "devDependencies": {
     "@krubb/eslint-config": "*",
