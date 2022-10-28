@@ -1,6 +1,8 @@
 module.exports = {
   reactStrictMode: true,
+  output: "standalone",
+  poweredByHeader: false,
   experimental: {
-    transpilePackages: ["ui"],
+    transpilePackages: ["@krubb/ui"],
   },
 };

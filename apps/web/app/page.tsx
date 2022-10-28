@@ -1,9 +1,9 @@
 import { Button } from "@krubb/ui";
 
-export default function Docs() {
+export default async function Home() {
   return (
     <div>
-      <h1>Docs</h1>
+      <h1>Hello World</h1>
       <Button />
     </div>
   );
