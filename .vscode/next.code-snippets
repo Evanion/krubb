@@ -1,0 +1,51 @@
+{
+  "Next Layout": {
+    "scope": "typescriptreact",
+    "prefix": "nl",
+    "body": [
+      "import type { LayoutProps } from '@krubb/types'",
+      "",
+      "export default async function ${1:LayoutName}Layout({ children }: LayoutProps) {",
+      "  return (",
+      "    <>",
+      "      {children}",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "Create a react functional component"
+  },
+  "Next Root Layout": {
+    "scope": "typescriptreact",
+    "prefix": "nrl",
+    "body": [
+      "import type { LayoutProps } from '@krubb/types'",
+      "",
+      "export default async function ${1:LayoutName}Layout({ children }: LayoutProps) {",
+      "  return (",
+      "    <html lang=\"en\">",
+      "      <head>",
+      "        <title>${2:ProjectName}</title>",
+      "      </head>",
+      "      <body>{children}</body>",
+      "    </html>",
+      "  )",
+      "}"
+    ],
+    "description": "Create a react functional component"
+  },
+  "Next Page": {
+    "scope": "typescriptreact",
+    "prefix": "np",
+    "body": [
+      "export default async function ${1:PageName}Page() {",
+      "  return (",
+      "    <>",
+      "      $2",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "Create a react functional component"
+  }
+}

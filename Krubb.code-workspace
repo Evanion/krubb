@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/node_modules": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "formulahendry.auto-rename-tag",
+      "kisstkondoros.vscode-codemetrics",
+      "EditorConfig.EditorConfig",
+      "capaj.vscode-exports-autocomplete",
+      "eamodio.gitlens",
+      "firsttris.vscode-jest-runner",
+      "ZainChen.json",
+      "yzhang.markdown-all-in-one",
+      "unifiedjs.vscode-mdx",
+      "leizongmin.node-module-intellisense",
+      "christian-kohler.npm-intellisense",
+      "kisstkondoros.typelens",
+      "styled-components.vscode-styled-components",
+      "vscodeshift.mui-snippets",
+      "PulkitGangwar.nextjs-snippets"
+    ]
+  }
+}
