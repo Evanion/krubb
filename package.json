@@ -17,7 +17,7 @@
     "docker:down": "docker-compose -f docker-compose.yml down"
   },
   "devDependencies": {
-    "@krubb/eslint-config-custom": "*",
+    "@krubb/eslint-config": "*",
     "prettier": "latest",
     "turbo": "latest"
   },

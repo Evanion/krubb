@@ -1,5 +1,5 @@
 {
-  "name": "@krubb/eslint-config-custom",
+  "name": "@krubb/eslint-config",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
